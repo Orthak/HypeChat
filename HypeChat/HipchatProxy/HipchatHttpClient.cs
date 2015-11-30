@@ -1,13 +1,14 @@
 ﻿using System;
-using System.Net.Http;
 using System.Net;
-namespace HypeChat.Hipchat
+using System.Net.Http;
+
+namespace HypeChat.HipchatProxy
 {
     public sealed class HipchatHttpClient
     {
         private static HttpClient instance;
         private static object syncRoot = new object();
-        private const string hipchatBaseAddress = "https://api.hipchat.com/v2";
+        private const string HipchatBaseAddress = "https://api.hipchat.com/v2";
 
         public static HttpClient Instance
         {
@@ -22,7 +23,7 @@ namespace HypeChat.Hipchat
                             var handler = new HttpClientHandler { UseDefaultCredentials = true, Credentials = CredentialCache.DefaultCredentials };
                             var client = new HttpClient(handler, false)
                             {
-                                BaseAddress = new Uri(hipchatBaseAddress)
+                                BaseAddress = new Uri(HipchatBaseAddress)
                             };
                             instance = client;
                         }
