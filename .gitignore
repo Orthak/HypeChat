@@ -50,3 +50,7 @@ Temporary Items
 HypeChat/bin/
 HypeChat/obj/
 HypeChat/Assets/
+
+# Project based files to ignore.
+*.suo
+*.cache
