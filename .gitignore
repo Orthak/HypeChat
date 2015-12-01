@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Local directories created by the compiler to ignore
+HypeChat/bin/
+HypeChat/obj/
+HypeChat/Assets/
