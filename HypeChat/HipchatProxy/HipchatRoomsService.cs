@@ -11,7 +11,6 @@ namespace HypeChat.HipchatProxy
         {
             var resourcePath = @"room/"+roomName;
             var response = await this._hipchatClient.GetAsync(resourcePath);
-            //return response.Content.ReadAsStreamAsync();
             return null;
         }
 

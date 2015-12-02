@@ -54,3 +54,4 @@ HypeChat/Assets/
 # Project based files to ignore.
 *.suo
 *.cache
+.vs\HypeChat\v14\.suo

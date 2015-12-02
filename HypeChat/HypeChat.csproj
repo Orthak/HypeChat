@@ -101,7 +101,7 @@
     </Compile>
     <Compile Include="HipchatProxy\HipchatHttpClient.cs" />
     <Compile Include="HipchatProxy\HipchatProxy.cs" />
-    <Compile Include="HipchatProxy\HipchatRooms.cs" />
+    <Compile Include="HipchatProxy\HipchatRoomsService.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
