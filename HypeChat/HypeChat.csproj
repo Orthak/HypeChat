@@ -99,11 +99,13 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Hipchat\HipchatHttpClient.cs" />
-    <Compile Include="Hipchat\HipchatProxy.cs" />
+    <Compile Include="HipchatProxy\HipchatHttpClient.cs" />
+    <Compile Include="HipchatProxy\HipchatProxy.cs" />
+    <Compile Include="HipchatProxy\HipchatRooms.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Models\HipchatRoom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

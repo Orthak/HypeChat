@@ -6,7 +6,7 @@ namespace HypeChat.HipchatProxy
 {
     public sealed class HipchatHttpClient
     {
-        private static HttpClient instance;
+        private static volatile HttpClient instance;
         private static object syncRoot = new object();
         private const string HipchatBaseAddress = "https://api.hipchat.com/v2";
 

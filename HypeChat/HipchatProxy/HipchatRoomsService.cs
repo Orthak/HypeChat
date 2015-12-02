@@ -1,15 +1,17 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections;
+using System.Threading.Tasks;
 
 using HypeChat.Models;
 
 namespace HypeChat.HipchatProxy
 {
-    public class HipchatRooms : HipchatProxy
+    public class HipchatRoomsService : HipchatProxy
     {
         public async Task<HipchatRoom> GetHipchatRoom(string roomName)
         {
             var resourcePath = @"room/"+roomName;
             var response = await this._hipchatClient.GetAsync(resourcePath);
+            //return response.Content.ReadAsStreamAsync();
             return null;
         }
 
