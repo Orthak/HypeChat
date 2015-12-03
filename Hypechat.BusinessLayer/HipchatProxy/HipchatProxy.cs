@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 
-namespace HypeChat.HipchatProxy
+namespace Hypechat.BusinessLayer.HipchatProxy
 {
     public abstract class HipchatProxy
     {

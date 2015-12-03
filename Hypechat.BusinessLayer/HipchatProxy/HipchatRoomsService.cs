@@ -1,9 +1,8 @@
-﻿using System.Collections;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Hypechat.Models;
 
-using HypeChat.Models;
-
-namespace HypeChat.HipchatProxy
+namespace Hypechat.BusinessLayer.HipchatProxy
 {
     public class HipchatRoomsService : HipchatProxy
     {

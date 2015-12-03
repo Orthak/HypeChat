@@ -50,6 +50,12 @@ Temporary Items
 HypeChat/bin/
 HypeChat/obj/
 HypeChat/Assets/
+Hypechat.Models/Debug/
+Hypechat.Models/obj/
+Hypechat.Models/bin/
+Hypechat.BusinessLayer/obj/
+Hypechat.BusinessLayer/Debug/
+Hypechat.BusinessLayer/bin/
 
 # Project based files to ignore.
 *.suo

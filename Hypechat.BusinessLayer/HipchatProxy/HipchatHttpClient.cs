@@ -2,7 +2,7 @@
 using System.Net;
 using System.Net.Http;
 
-namespace HypeChat.HipchatProxy
+namespace Hypechat.BusinessLayer.HipchatProxy
 {
     public sealed class HipchatHttpClient
     {
