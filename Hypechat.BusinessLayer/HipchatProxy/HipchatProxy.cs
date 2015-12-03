@@ -1,4 +1,4 @@
-﻿using System.Net.Http;
+﻿using Windows.Web.Http;
 
 namespace Hypechat.BusinessLayer.HipchatProxy
 {
